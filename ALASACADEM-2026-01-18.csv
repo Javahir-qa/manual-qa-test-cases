@@ -1,0 +1,359 @@
+v2.id,title,description,preconditions,postconditions,tags,priority,severity,type,behavior,automation,status,is_flaky,layer,steps_type,steps_actions,steps_result,steps_data,milestone_id,milestone,suite_id,suite_parent_id,suite,suite_without_cases,parameters,is_muted
+,,,,,,,,,,,,,,,,,,,,13,,"ADY - Balance Top-up test cases",1
+,,,,,,,,,,,,,,,,,,,,15,13,"Birbank application - test cases",1
+,,,,,,,,,,,,,,,,,,,,7,,"ALAS – Contact Form Test Suite",1
+,,,,,,,,,,,,,,,,,,,,10,,"Xəritə funksionallığı testləri",1
+,,,,,,,,,,,,,,,,,,,,11,,"Header menyusunun testləri",1
+,,,,,,,,,,,,,,,,,,,,12,,"Footer menyusunun test edilməsi",1
+,,,,,,,,,,,,,,,,,,,,16,,"API TESTING",1
+,,,,,,,,,,,,,,,,,,,,17,,"Test cases",1
+18,"Kartla balans uğurla artırılır","Kart məlumatları daxil edərək balansı uğurla artırma","Balansi artirma bölməsi",,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,"1. ""\""Balans\u0131n\u0131z\u0131 art\u0131r\u0131n\"" d\u00fcym\u0259sin\u0259 klik et""
+2. ""\""M\u0259bl\u0259\u011fi daxil edin\"" se\u00e7imi edilir""
+3. ""\u00d6d\u0259ni\u015f \u00fcsulu \""AZER\u0130CARD\"" se\u00e7ilir""
+4. ""\""T\u0259sdiq edin\"" d\u00fcym\u0259si klikl\u0259nir""
+5. ""Kart m\u0259lumatlar\u0131 daxil edilir""
+6. ""Expired date""
+7. ""CVV kod yaz\u0131l\u0131r""
+8. ""\""\u00d6d\u0259\"" d\u00fcym\u0259si klikl\u0259nir""
+","1. ""\u00d6d\u0259ni\u015f \u00fc\u00e7\u00fcn forma a\u00e7\u0131l\u0131r""
+2. ""Xanada M\u0259bl\u0259\u011f g\u00f6r\u00fcn\u00fcr""
+3. ""U\u011furla se\u00e7ilir""
+4. ""Az\u0259ricard \u00f6d\u0259ni\u015f platformas\u0131 a\u00e7\u0131l\u0131r""
+5. ""Kart r\u0259q\u0259ml\u0259ri g\u00f6r\u00fcn\u00fcr""
+6. ""Bitm\u0259 tarixi g\u00f6r\u00fcn\u00fcr""
+7. ""R\u0259q\u0259ml\u0259r maskalanm\u0131\u015f g\u00f6r\u00fcn\u00fcr""
+8. ""\u00d6d\u0259ni\u015f u\u011furla ke\u00e7ir""
+","1. """"
+2. ""3 AZN""
+3. """"
+4. """"
+5. ""5243\\*\\*\\*\\*""
+6. ""06\/26""
+7. ""\\*\\*\\*""
+8. """"
+",,,13,,"ADY - Balance Top-up test cases",,,no
+19,"Məbləğ sahəsi boş olduqda və şablon məbləğlərdən heç biri seçilmədikdə ödənişin baş verməməsi","İstifadəçi balans artırmaq üçün""Məbləğ"" xanasını boş buraxmaq və şablon məbləğlərdən heç birini seçmədən davam etmək","* İstifadəçi ADY mobil tətbiqinə daxil olub.
+* ""Balans artırma"" səhifəsindədir.",,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,"1. ""\""Balans\u0131n\u0131z\u0131 art\u0131r\u0131n\"" d\u00fcym\u0259sin\u0259 klik edilir""
+2. ""M\u0259bl\u0259\u011f sah\u0259sini bo\u015f saxla""
+3. ""1, 3, 5, 10 AZN sablon d\u00fcym\u0259l\u0259rd\u0259n he\u00e7 birini se\u00e7m\u0259""
+4. ""\u00d6d\u0259ni\u015f \u00fcsulu se\u00e7""
+5. ""\""T\u0259sdiq edin\"" d\u00fcym\u0259sin\u0259 klik et""
+","1. ""Balans\u0131n\u0131z\u0131 art\u0131q\u0131n b\u00f6lm\u0259si a\u00e7\u0131l\u0131r""
+2. ""M\u0259bl\u0259\u011f sah\u0259sind\u0259 he\u00e7 bir d\u0259y\u0259r yoxdur""
+3. ""S\u00fcr\u0259tli se\u00e7im edilm\u0259mi\u015f qal\u0131r""
+4. ""Se\u00e7im deaktiv olur""
+5. ""Button deaktiv qalir""
+","1. """"
+2. """"
+3. """"
+4. ""Azericard""
+5. """"
+",,,13,,"ADY - Balance Top-up test cases",,,no
+20,"Məbləğ xanasına 0 AZN daxil edilməsii","0 AZN daxil edilərək test edilir",,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,"1. ""Balans\u0131n\u0131z\u0131 art\u0131r\u0131n d\u00fcym\u0259sin\u0259 klik edilir""
+2. ""M\u0259bl\u0259\u011f sah\u0259sin\u0259 \u201c0\u201d yaz""
+3. ""\""\u00d6d\u0259ni\u015f \u00fcsulu\"" se\u00e7ilir""
+4. ""\""T\u0259sdiq edin\"" d\u00fcym\u0259sin\u0259 klik edilir""
+","1. ""\""Balans\u0131n\u0131z\u0131 art\u0131r\u0131n\"" b\u00f6lm\u0259si a\u00e7\u0131l\u0131r""
+2. ""He\u00e7 bir bildiri\u015f qeyd olunmur""
+3. ""D\u00fcym\u0259 aktiv olur, se\u00e7im edilir""
+4. ""D\u00fcym\u0259 deaktiv qal\u0131r, sistem reaksiya vermir""
+","1. """"
+2. """"
+3. ""Az\u0259ricard""
+4. """"
+",,,13,,"ADY - Balance Top-up test cases",,,no
+21,"Yüksək məbləğin daxil edilərək yoxlanılması","Məbləğ sahəsinə “@#$”""""""""yazaraq sistemin yoxlaması sınaqdan keçiRİLİR",,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,"1. ""Balans\u0131n\u0131z\u0131 art\u0131r\u0131n d\u00fcym\u0259sin\u0259 klik edilir""
+2. ""M\u0259bl\u0259\u011f sah\u0259sin\u0259 1000 000 AZN daxil et""
+3. ""\""\u00d6d\u0259ni\u015f \u00fcsulu\"" se\u00e7ilir""
+4. ""\""T\u0259sdiq edin\"" d\u00fcym\u0259sin\u0259 klik edilir""
+","1. ""\""Balans\u0131n\u0131z\u0131 art\u0131r\u0131n\"" b\u00f6lm\u0259si a\u00e7\u0131l\u0131r""
+2. ""He\u00e7 bir bildiri\u015f qeyd olunmur""
+3. ""D\u00fcym\u0259 aktiv olur, se\u00e7im edilir""
+4. ""D\u00fcym\u0259 deaktiv qal\u0131r, sistem reaksiya vermir""
+","1. """"
+2. ""1000 000""
+3. ""Az\u0259ricard""
+4. """"
+",,,13,,"ADY - Balance Top-up test cases",,,no
+22,"Məbləğ sahəsinə hərf və ya simvol daxil edilərək yoxlanılması","Məbləğ sahəsinə “@#$”""""""""yazaraq sistemin yoxlaması sınaqdan keçiRİLİR",,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,"1. ""Balans\u0131n\u0131z\u0131 art\u0131r\u0131n d\u00fcym\u0259sin\u0259 klik edilir""
+2. ""| M\u0259bl\u0259\u011f sah\u0259sin\u0259 simvollar qeyd olunur |\n| ------------------------------------- |\n|""
+3. ""\""\u00d6d\u0259ni\u015f \u00fcsulu\"" se\u00e7ilir""
+4. ""\""T\u0259sdiq edin\"" d\u00fcym\u0259sin\u0259 klik edilir""
+","1. ""\""Balans\u0131n\u0131z\u0131 art\u0131r\u0131n\"" b\u00f6lm\u0259si a\u00e7\u0131l\u0131r""
+2. ""He\u00e7 bir bildiri\u015f qeyd olunmur""
+3. ""D\u00fcym\u0259 aktiv olur, se\u00e7im edilir""
+4. ""D\u00fcym\u0259 deaktiv qal\u0131r, sistem reaksiya vermir""
+","1. """"
+2. ""@#$\""\""\""\""""
+3. ""Az\u0259ricard""
+4. """"
+",,,13,,"ADY - Balance Top-up test cases",,,no
+23,"Boş kart nömrəsi ilə ödənişə cəhd edilməsi","Kart nömrəsi daxil edilmədən balans artırmaq cəhdi edilir.","İstifadəçi balans artırma səhifəsinə daxil olmuş və məbləğ sahəsinə etibarlı məbləğ daxil etmişdir, hazırda ""Kart məlumatları"" bölməsindədir",,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,"1. ""Kart n\u00f6mr\u0259si sah\u0259sini bo\u015f burax""
+2. ""\""Expired date\"" xanas\u0131na bitm\u0259 tarixini daxil et""
+3. ""\""CVV\"" m\u0259lumat\u0131n\u0131 daxil et""
+4. ""\u201c\u00d6d\u0259\u201d d\u00fcym\u0259sin\u0259 klik et""
+","1. """"
+2. ""Tarix \u0259ks olunur""
+3. ""M\u0259lumat maskalanm\u0131\u015f olaraq g\u00f6r\u00fcn\u00fcr""
+4. ""\""Bu xanan\u0131 doldurun\"" x\u0259b\u0259rdarl\u0131q mesa\u0131 qeyd olunur""
+","1. """"
+2. ""06\/25""
+3. ""\\*\\*\\*""
+4. """"
+",,,13,,"ADY - Balance Top-up test cases",,,no
+24,"Fake kart rəqəmləri ilə ödəniş edilməsi","Card number xanasına fake kart nömrəsi daxil edir.","İstifadəçi balans artırma səhifəsinə daxil olmuş və məbləğ sahəsinə etibarlı məbləğ daxil etmişdir, hazırda ""Kart məlumatları"" bölməsindədir",,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,"1. ""Kart n\u00f6mr\u0259si xanas\u0131na s\u0259hv r\u0259q\u0259ml\u0259r daxil edilir""
+2. ""\""Expired date\"" xanas\u0131na bitm\u0259 tarixini daxil et""
+3. ""\""CVV\"" m\u0259lumat\u0131n\u0131 daxil et""
+4. ""\u201c\u00d6d\u0259\u201d d\u00fcym\u0259sin\u0259 klik et""
+","1. ""\""\u018fm\u0259liyyat u\u011fursuzdur\"" bildiri\u015fi qeyd olunur""
+2. ""Tarix \u0259ks olunur""
+3. ""M\u0259lumat maskalanm\u0131\u015f olaraq g\u00f6r\u00fcn\u00fcr""
+4. ""\""\u018fm\u0259liyyat u\u011fursuzdur\"" bildiri\u015fi qeyd olunur""
+","1. ""4567891235478956""
+2. ""06\/25""
+3. ""\\*\\*\\*""
+4. """"
+",,,13,,"ADY - Balance Top-up test cases",,,no
+26,"Kart nömrəsi sahəsinə hərf daxil edilməsi","Kart nömrəsi sahəsinə hərf daxil etməyə cəhd etdikdə heç bir simvol daxil edilmir və yalnız rəqəmlərə icazə verilir.","İstifadəçi balans artırma səhifəsinə daxil olmuş və məbləğ sahəsinə etibarlı məbləğ daxil etmişdir, hazırda ""Kart məlumatları"" bölməsindədir",,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,"1. ""Kart n\u00f6mr\u0259si sah\u0259sin\u0259 h\u0259rf daxil edilm\u0259si""
+2. ""\""Expired date\"" xanas\u0131na bitm\u0259 tarixini daxil et""
+3. ""\""CVV\"" m\u0259lumat\u0131n\u0131 daxil et""
+4. ""\u201c\u00d6d\u0259\u201d d\u00fcym\u0259sin\u0259 klik et""
+","1. ""Sah\u0259y\u0259 he\u00e7 bir h\u0259rf daxil edilm\u0259si m\u00fcmk\u00fcn olmur""
+2. ""Tarix \u0259ks olunur""
+3. ""M\u0259lumat maskalanm\u0131\u015f olaraq g\u00f6r\u00fcn\u00fcr""
+4. ""H\u0259rf daxil edilm\u0259si m\u00fcmk\u00fcn olmur, s\u0259hif\u0259 no reaction""
+","1. """"
+2. ""06\/25""
+3. ""\\*\\*\\*""
+4. """"
+",,,13,,"ADY - Balance Top-up test cases",,,no
+25,"CVV sahəsinin boş buraxılması","CVV sahəsini boş saxlayaraq balans artırmağa cəhd edİlməsi","İstifadəçi balans artırma səhifəsinə daxil olmuş və məbləğ sahəsinə etibarlı məbləğ daxil etmişdir, hazırda ""Kart məlumatları"" bölməsindədir",,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,"1. ""Kart r\u0259q\u0259ml\u0259rinin daxil edilm\u0259si""
+2. ""\""Expired date\"" xanas\u0131na bitm\u0259 tarixini daxil et""
+3. ""\""CVV\"" m\u0259lumat\u0131n\u0131n bo\u015f saxlan\u0131lmas\u0131""
+4. ""\u201c\u00d6d\u0259\u201d d\u00fcym\u0259sin\u0259 klik et""
+","1. ""R\u0259q\u0259ml\u0259r oldu\u011fu kimi \u0259ks olunur""
+2. ""Tarix \u0259ks olunur""
+3. ""\""Bu xanan\u0131 doldurun\"" qeyd olunur""
+4. ""\""Bu (CVV) xanan\u0131 doldurun\"" qeyd olunur""
+","1. ""4565156515166515""
+2. ""06\/25""
+3. """"
+4. """"
+",,,13,,"ADY - Balance Top-up test cases",,,no
+27,"CVV sahəsinə 2 rəqəm daxil edilməsi","CVV sahəsinə 2 rəqəm daxil edilir","İstifadəçi balans artırma səhifəsinə daxil olmuş və məbləğ sahəsinə etibarlı məbləğ daxil etmişdir, hazırda ""Kart məlumatları"" bölməsindədir",,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,"1. ""Kart r\u0259q\u0259ml\u0259rinin daxil edilm\u0259si""
+2. ""\""Expired date\"" xanas\u0131na bitm\u0259 tarixini daxil et""
+3. ""| CVV sah\u0259sin\u0259 2 r\u0259q\u0259m daxil et |\n| ----------------------------- |\n|""
+4. ""\u201c\u00d6d\u0259\u201d d\u00fcym\u0259sin\u0259 klik et""
+","1. ""R\u0259q\u0259ml\u0259r oldu\u011fu kimi \u0259ks olunur""
+2. ""Tarix \u0259ks olunur""
+3. ""\""\u018fn az\u0131 3r\u0259q\u0259m daxil edin\"" qeyd olunur""
+4. ""\""\u018fn az\u0131 3r\u0259q\u0259m daxil edin\"" qeyd olunur""
+","1. ""4565156515166515""
+2. ""09\/25""
+3. ""12""
+4. """"
+",,,13,,"ADY - Balance Top-up test cases",,,no
+28,"""Expired date"" xanasında tarix formatının yanlış daxil edilməsi","İstifadəçi tarix sahəsinə səhv formatda məlumat daxil edir.","Digər sahələr doğru doldurulub.",,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,"1. ""Kart r\u0259q\u0259ml\u0259rinin daxil edilm\u0259si""
+2. ""\""Expired date\"" xanas\u0131 s\u0259hv bitm\u0259 tarixi qeyd et""
+3. ""CVV daxil edilir""
+4. ""\u201c\u00d6d\u0259\u201d d\u00fcym\u0259sin\u0259 klik et""
+","1. ""R\u0259q\u0259ml\u0259r oldu\u011fu kimi \u0259ks olunur""
+2. ""\""Bu xanan\u0131 doldurun\"" bildiri\u015fi \u0259ks olunur""
+3. ""\""\u018fn az\u0131 3 r\u0259q\u0259m daxil edin\"" qeyd olunur""
+4. ""\""\u018fm\u0259liyyat u\u011fursuzdur\"" bildiri \u0259ks olunur""
+","1. ""4565156515166515""
+2. ""02\/25""
+3. ""123""
+4. """"
+",,,13,,"ADY - Balance Top-up test cases",,,no
+29,"Kart məlumatları bölməsində bütün xanalr boş olduqda “Təsdiqlə” düyməsinin aktiv olub-olmaması","İstifadəçi balans artırma səhifəsində heç bir məlumat daxil etmədən “Təsdiqlə” düyməsinin aktiv olub-olmadığının yoxlanması","İstifadəçi balans artırma səhifəsinə daxil olmuş və məbləğ sahəsinə etibarlı məbləğ daxil etmişdir, hazırda ""Kart məlumatları"" bölməsindədir",,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,"1. ""Kart r\u0259q\u0259ml\u0259ri bo\u015f burax\u0131l\u0131r""
+2. ""\""Expired date\"" xanas\u0131 bo\u015f burax\u0131l\u0131r""
+3. ""CVV xanas\u0131 bo\u015f burax\u0131l\u0131r""
+","1. ""\""Bu xanan\u0131 doldurun\"" bildiri\u015fi \u0259ks olunur""
+2. ""\""Bu xanan\u0131 doldurun\"" bildiri\u015fi \u0259ks olunur""
+3. ""\""\u018fn\""Bu xanan\u0131 doldurun\"" bildiri\u015fi \u0259ks olunur""
+","1. """"
+2. """"
+3. ""123""
+",,,13,,"ADY - Balance Top-up test cases",,,no
+30,"İnternet bağlantısı olmadıqda ""Balans artımı"" düyməsinin active/deactive olması","Balans artırma üçün bütün məlumatları düzgün daxil etdikdən sonra internet bağlantısı kəsilir və “Təsdiqlə” düyməsinə klik edilir","Digər sahələr doğru doldurulub.",,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,"1. ""Kart r\u0259q\u0259ml\u0259rinin daxil edilm\u0259si""
+2. ""\""Expired date\"" xanas\u0131 s\u0259hv bitm\u0259 tarixi qeyd et""
+3. ""CVV daxil edilir""
+4. ""\u201c\u00d6d\u0259\u201d d\u00fcym\u0259sin\u0259 klik et""
+","1. ""R\u0259q\u0259ml\u0259r oldu\u011fu kimi \u0259ks olunur""
+2. ""\""Bu xanan\u0131 doldurun\"" bildiri\u015fi \u0259ks olunur""
+3. ""R\u0259q\u0259ml\u0259r maskalanm\u0131\u015f \u0259ks olunur""
+4. ""\""\u0130nternet \u0259laq\u0259si yoxdur\""qeyd olunur""
+","1. ""4565156515166515""
+2. ""02\/25""
+3. ""123""
+4. """"
+",,,13,,"ADY - Balance Top-up test cases",,,no
+32,"Sessiya vaxtı bitdikdən sonra ödənişi təsdiqləməyə cəhd edilməsi","İstifadəçi balans artırma səhifəsində uzun müddət hərəkətsiz qalır,sessiya timeout baş verir","İstifadəçi balans artırma səhifəsinə daxil olmuş və məbləğ sahəsinə etibarlı məbləğ daxil etmişdir, hazırda ""Kart məlumatları"" bölməsindədir",,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,"1. ""Kart r\u0259q\u0259ml\u0259ri daxil edilir""
+2. ""\""Expired date\"" xanas\u0131na bitm\u0259 tarixini daxil et""
+3. ""\""CVV\"" m\u0259lumat\u0131n\u0131 daxil et""
+4. ""\u201c\u00d6d\u0259\u201d d\u00fcym\u0259sin\u0259 klik et""
+","1. ""M\u0259lumatlar \u0259ks olunur""
+2. ""Tarix \u0259ks olunur""
+3. ""M\u0259lumat maskalanm\u0131\u015f olaraq g\u00f6r\u00fcn\u00fcr""
+4. ""Ekranda loading y\u00fckl\u0259nir v\u0259 \""\u00d6d\u0259ni\u015f u\u011fursuz oldu\"" bildiri\u015fi \u0259ks olunur""
+","1. """"
+2. ""06\/25""
+3. ""\\*\\*\\*""
+4. """"
+",,,13,,"ADY - Balance Top-up test cases",,,no
+61,"Kredit ödənişi məbləğinin yazılması",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,13,,"ADY - Balance Top-up test cases",,,no
+62,"Kredit ödənişi zamanı kart məlumatlarının düzgün yazılması",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,13,,"ADY - Balance Top-up test cases",,,no
+63,"Tam məbləğin ödənişin edilməsi",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,13,,"ADY - Balance Top-up test cases",,,no
+64,"Düzgün kart məlumatlarının düzgün daxil edilməsi",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,13,,"ADY - Balance Top-up test cases",,,no
+65,"Yalnış kart məlumatları ilə ödəniş",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,13,,"ADY - Balance Top-up test cases",,,no
+66,"Düzgün username ve parol ilə daxilolma",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,13,,"ADY - Balance Top-up test cases",,,no
+33,"Birbasnk səhifəsinin uğurla yüklənməsi",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,15,13,"Birbank application - test cases",,,no
+34,"Birbank logosuna kliklədikdə  profilin uğurla açılması",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,15,13,"Birbank application - test cases",,,no
+35,"Headerda story-lərin  düzgün əks olunması",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,15,13,"Birbank application - test cases",,,no
+36,"Balans məlumatlarının gizlədilməsi üçün hide olunması",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,15,13,"Birbank application - test cases",,,no
+37,"Balans məlumatlarının aşkar görünməsi  üçün unhide funksiyasının aktiv olması",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,15,13,"Birbank application - test cases",,,no
+38,"Axtarış düyməsinin aktiv olması",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,15,13,"Birbank application - test cases",,,no
+39,"Message bölməsinin aktivliyi",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,15,13,"Birbank application - test cases",,,no
+40,"ƏDV bölməsinə klik etmək olur",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,15,13,"Birbank application - test cases",,,no
+41,"Cashback bölməsi aktivdirmi",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,15,13,"Birbank application - test cases",,,no
+42,"Umico bölməsi aktivdirmi",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,15,13,"Birbank application - test cases",,,no
+43,"Proqramın update olunması üçün düymənin aktiv olub-olmaması",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,15,13,"Birbank application - test cases",,,no
+44,"Kartlar və hesablar bölməsində kart və hesab siyahısnın əks olunması",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,15,13,"Birbank application - test cases",,,no
+45,"Yeni hesabın uğurla əlavə olunması buttonunun aktiv olması",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,15,13,"Birbank application - test cases",,,no
+46,"Digər Məhsullar bölməsində  Bakıkart",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,15,13,"Birbank application - test cases",,,no
+47,"Kreditlər  bölməsində kreditlərin əks olunması",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,15,13,"Birbank application - test cases",,,no
+48,"Mobil nömrə bölməsində nömrənin əks olunması",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,15,13,"Birbank application - test cases",,,no
+49,"""Bank məhsulları"" bölməsində siyahının əks olunması",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,15,13,"Birbank application - test cases",,,no
+50,"""Bank məhsulları sifarişi"" bölməsinin ""Kartlar"" alt bölməsinin aktiv olması",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,15,13,"Birbank application - test cases",,,no
+7,"Bütün sahələr düzgün doldurulduqda formun uğurla göndərilməsi","Bütün sahələr düzgün məlumatlar daxil edilərək formun uğurla göndərilməsi",[https://alas.edu.az/](https://alas.edu.az/),,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,"1. ""Ad xanas\u0131na d\u00fczg\u00fcn ad daxil edilir""
+2. ""Ad xanas\u0131na d\u00fczg\u00fcn soyad daxil edilir""
+3. ""E-mail xanasina d\u00fczg\u00fcn email daxil edilir""
+4. ""M\u00f6vzu xanas\u0131na m\u0259lumat daxil edilir""
+5. ""Mesaj xanas\u0131na `m\u0259lumat` yaz\u0131l\u0131r""
+6. ""\""G\u00f6nd\u0259r\"" d\u00fcym\u0259sin\u0259 klikl\u0259nir""
+","1. ""Form u\u011furla g\u00f6nd\u0259rilir""
+2. ""Form u\u011furla g\u00f6nd\u0259rilir""
+3. ""Email q\u0259bul edilir""
+4. ""Q\u0259bul edilir""
+5. ""M\u0259tn q\u0259bul edilir""
+6. ""Thank you for your message. We will get in touch with you shortly""
+","1. ""Javahir""
+2. ""Guliyeva""
+3. ""javahir@mail.com""
+4. ""`Sor\u011fu`""
+5. ""`Salam, kurs haqqinda m\u0259lumat almaq ist\u0259yir\u0259m`""
+6. """"
+",,,7,,"ALAS – Contact Form Test Suite",,,no
+10,"E-mail sahəsi boş olduqda form göndərilməsi","“Bizimlə Əlaqə” formasında Email sahəsi boş buraxıldıqda formun göndərilməsinin qarşısının alınması və istifadəçiyə uyğun xəbərdarlıq mesajının göstərilməsi yoxlanılır.",[https://alas.edu.az/](https://alas.edu.az/),,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,"1. ""Ad xanas\u0131na d\u00fczg\u00fcn ad daxil edilir""
+2. ""Ad xanas\u0131na d\u00fczg\u00fcn soyad daxil edilir""
+3. ""E-mail xanas\u0131 bo\u015f burax\u0131l\u0131r""
+4. ""M\u00f6vzu xanas\u0131na m\u0259lumat daxil edilir""
+5. ""Mesaj xanas\u0131na `m\u0259lumat` yaz\u0131l\u0131r""
+6. ""\""G\u00f6nd\u0259r\"" d\u00fcym\u0259sin\u0259 klikl\u0259nir""
+","1. ""Form u\u011furla g\u00f6nd\u0259rilir""
+2. ""Form u\u011furla g\u00f6nd\u0259rilir""
+3. ""Email q\u0259bul edilir""
+4. ""Q\u0259bul edilir""
+5. ""M\u0259tn q\u0259bul edilir""
+6. ""This field must contain a valid email""
+","1. ""Javahir""
+2. ""Guliyeva""
+3. """"
+4. ""`Sor\u011fu`""
+5. ""`Salam, kurs haqqinda m\u0259lumat almaq ist\u0259yir\u0259m`""
+6. """"
+",,,7,,"ALAS – Contact Form Test Suite",,,no
+11,"Subject sahəsində yalnız rəqəm olduqda validasiya yoxlanılır","“Bizimlə Əlaqə” formasında Mövzu (Subject) sahəsinə yalnız rəqəm daxil edildikdə formun göndərilməsinə icazə verilib-verilmədiyi və sistemin düzgün xəbərdarlıq mesajı göstərib-göstərmədiyi yoxlanılır.",[https://alas.edu.az/](https://alas.edu.az/),,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,"1. ""Ad xanas\u0131na d\u00fczg\u00fcn ad daxil olunur""
+2. ""Soyad xanas\u0131na d\u00fczg\u00fcn soyad daxil edilir""
+3. ""E-mail xanasna d\u00fczg\u00fcn email daxil edilir""
+4. ""M\u00f6vzu (Subject) xanas\u0131na yaln\u0131z r\u0259q\u0259ml\u0259r daxil edilir""
+5. ""Mesaj xanas\u0131na `m\u0259lumat` yaz\u0131l\u0131r""
+6. ""\""G\u00f6nd\u0259r\"" d\u00fcym\u0259sin\u0259 klikl\u0259nir""
+","1. ""X\u0259b\u0259rdarl\u0131q: \u201cAd daxil edin\u201d""
+2. ""Q\u0259bul edilir""
+3. ""Email q\u0259bul edilir""
+4. ""BUG a\u015fkarland\u0131. Thank you for your message. We will get in touch with you shortly""
+5. ""M\u0259tn q\u0259bul edilir""
+6. ""Thank you for your message. We will get in touch with you shortly""
+","1. ""Javahir""
+2. ""Guliyeva""
+3. ""javahirguliyeva1@gmail.com""
+4. ""`481968515615`""
+5. ""`Salam, kurs haqqinda m\u0259lumat almaq ist\u0259yir\u0259m`""
+6. """"
+",,,7,,"ALAS – Contact Form Test Suite",,,no
+12,"E-mail sahəsi boş olduqda form göndərilməsi","“Bizimlə Əlaqə” formasında Email sahəsi boş buraxıldıqda formun göndərilməsinin qarşısının alınması və istifadəçiyə uyğun xəbərdarlıq mesajının göstərilməsi yoxlanılır.",[https://alas.edu.az/](https://alas.edu.az/),,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,"1. ""Ad xanas\u0131 bo\u015f burqax\u0131l\u0131r""
+2. ""Ad xanas\u0131 bo\u015fburax\u0131l\u0131r""
+3. ""E-mail xanas\u0131 bo\u015f burax\u0131l\u0131r""
+4. ""M\u00f6vzu xanas\u0131 bo\u015f burqax\u0131l\u0131r""
+5. ""Mesaj xanas\u0131 bo\u015f burax\u0131l\u0131r""
+6. ""\""G\u00f6nd\u0259r\"" d\u00fcym\u0259sin\u0259 klikl\u0259nir""
+","1. ""He\u00e7 bir x\u0259ta yazm\u0131r""
+2. ""He\u00e7 bir x\u0259ta yazm\u0131r""
+3. ""This field is required""
+4. ""He\u00e7 bir x\u0259ta yazm\u0131r""
+5. ""M\u0259tn q\u0259bul edilir""
+6. ""This field is required""
+","1. """"
+2. """"
+3. """"
+4. """"
+5. """"
+6. """"
+",,,7,,"ALAS – Contact Form Test Suite",,,no
+13,"Xəritəyə klik edildikdə interaktivlik yoxlanılır","“Bizimlə Əlaqə” bölməsində yerləşən xəritə üzərinə klik edildikdə xəritənin interaktivliyinin işlədiyi (məsələn, zoom və ya yön dəyişməsi) yoxlanılır.",[https://alas.edu.az/](https://alas.edu.az/),,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,"1. ""\u201cBiziml\u0259 \u018flaq\u0259\u201d s\u0259hif\u0259sin\u0259 ke\u00e7id edilir""
+2. ""X\u0259rit\u0259 komponenti ekranda g\u00f6r\u00fcn\u00fcr""
+3. ""\u0130stifad\u0259\u00e7i x\u0259rit\u0259nin ist\u0259nil\u0259n n\u00f6qt\u0259sin\u0259 klik edir""
+4. ""Klikd\u0259n sonra x\u0259rit\u0259 b\u00f6y\u00fcd\u00fcl\u00fcr v\u0259 ya fokus d\u0259yi\u015fir (\u0259g\u0259r aktivdirs\u0259)""
+","1. ""X\u0259rit\u0259 s\u0259hif\u0259d\u0259 d\u00fczg\u00fcn \u015f\u0259kild\u0259 g\u00f6r\u00fcn\u00fcr""
+2. ""X\u0259rit\u0259 komponenti y\u00fckl\u0259nir v\u0259 x\u0259rit\u0259nin i\u00e7ind\u0259ki elementl\u0259r ayd\u0131n \u015f\u0259kild\u0259 g\u00f6r\u00fcn\u00fcr""
+3. ""X\u0259rit\u0259 \u00fcz\u0259rin\u0259 klik edildikd\u0259 interaktiv cavab verir (b\u00f6y\u00fcd\u00fcl\u00fcr, fokus d\u0259yi\u015fir v\u0259 ya h\u0259r\u0259k\u0259t etdiril\u0259 bilir""
+4. ""Sayt donmur, x\u0259ta mesaj\u0131 g\u00f6st\u0259rilmir, x\u0259rit\u0259 funksionall\u0131\u011f\u0131 yerind\u0259dir""
+","1. ""[https:\/\/alas.edu.az\/bizimle-elaqe\/](https:\/\/alas.edu.az\/bizimle-elaqe\/)""
+2. """"
+3. """"
+4. """"
+",,,10,,"Xəritə funksionallığı testləri",,,no
+14,"Header menyusundakı linklərə klik funksionallığının yoxlanması","Saytın yuxarı hissəsində yerləşən Header menyusundakı naviqasiya linklərinə klik edildikdə istifadəçinin müvafiq səhifəyə yönləndirilib-yönləndirilmədiyi yoxlanılır.",[https://alas.edu.az](https://alas.edu.az),,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,"1. ""Sayt\u0131n ana s\u0259hif\u0259sini a\u00e7\u0131LIR""
+2. ""EKRAN A\u015eA\u011eI SKROL ED\u0130L\u0130R""
+3. ""Header menyusunda HAQQIMIZDA \u00fcz\u0259rin\u0259 klik edilir""
+","1. ""U\u011eURLA A\u00c7ILIR""
+2. ""U\u011eURLU""
+3. ""\u0130stifad\u0259\u00e7i klik etdiyi link\u0259 uy\u011fun olan s\u0259hif\u0259y\u0259 y\u00f6nl\u0259ndirilir v\u0259 s\u0259hif\u0259 d\u00fczg\u00fcn \u015f\u0259kild\u0259 a\u00e7\u0131l\u0131r.""
+","1. ""[https:\/\/alas.edu.az\/](https:\/\/alas.edu.az\/)""
+2. """"
+3. """"
+",,,11,,"Header menyusunun testləri",,,no
+17,"NEGATİVE - Header menyusunun sabit qalmaması","Saytın Header menyusu səhifə aşağı skroll edildikdə yuxarıda sabit qalmamalıdır, əks halda istifadəçi naviqasiyada çətinlik çəkə bilər. Bu testdə menyunun səhifənin yuxarı hissəsində qalması yoxlanılır.[https://alas.edu.az/](https://alas.edu.az/)",[https://alas.edu.az/](https://alas.edu.az/),,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,"1. ""S\u0259hif\u0259nia\u015fa\u011f\u0131 skrol et""
+","1. ""Header menyusu a\u015fa\u011f\u0131 skroll edildikd\u0259 s\u0259hif\u0259nin yuxar\u0131 hiss\u0259sind\u0259 **sabit qalmal\u0131d\u0131r** (sticky olmal\u0131d\u0131r). \u018fg\u0259r menyu s\u0259hif\u0259 il\u0259 birlikd\u0259 a\u015fa\u011f\u0131 d\u00fc\u015f\u00fcrs\u0259, bu, problem (bug) hesab edilir.""
+","1. """"
+",,,11,,"Header menyusunun testləri",,,no
+16,"Footer bölməsindəki linklərə klik edildikdə düzgün yönləndirilmə","Saytın Footer hissəsində yerləşən bütün linklərə klik edildikdə istifadəçinin müvafiq səhifəyə yönləndirilməsi və səhifənin düzgün açılması yoxlanılır.",[https://alas.edu.az/haqqimizda/](https://alas.edu.az/haqqimizda/),,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,"1. ""Footer hiss\u0259sind\u0259ki \u201c\u018flaq\u0259\u201d linkin\u0259 klik edilir""
+2. ""S\u0259hif\u0259nin sonuna q\u0259d\u0259r **a\u015fa\u011f\u0131ya skroll edilir**""
+3. ""Footer hiss\u0259sind\u0259 yerl\u0259\u015f\u0259n \u201c\u018flaq\u0259\u201d b\u00f6lm\u0259sin\u0259 klik et.""
+","1. ""\u0130stifad\u0259\u00e7i klik etdiyi link\u0259 uy\u011fun s\u0259hif\u0259y\u0259 y\u00f6nl\u0259ndirilir v\u0259 s\u0259hif\u0259 tam v\u0259 d\u00fczg\u00fcn y\u00fckl\u0259nir, he\u00e7 bir s\u0259hv mesaj\u0131 g\u00f6st\u0259rilmir.""
+2. """"
+3. ""\u018flq\u0259 s\u0259hif\u0259si a\u00e7\u0131l\u0131r""
+","1. ""[https:\/\/alas.edu.az\/haqqimizda\/](https:\/\/alas.edu.az\/haqqimizda\/) Klik edil\u0259c\u0259k link: \u201c\u018flaq\u0259\u201d""
+2. """"
+3. """"
+",,,12,,"Footer menyusunun test edilməsi",,,no
+51,"API Status URL  Check",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,16,,"API TESTING",,,no
+52,"GET /tools — Get Default List of Available Tools","Bütün siyahının yoxlanması",,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,16,,"API TESTING",,,no
+53,"GET /tools + Query Params (İD, CATEGORY,NAME,STOCK)","Filtr parametrləri ilə cavabların yoxlanması",,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,16,,"API TESTING",,,no
+54,"GET /tools/:toolId — Get a single order","Tək İD ilə axtarış",,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,16,,"API TESTING",,,no
+55,"GET /tools/:toolId?user-manual=true - Get Tool Info UM PDF",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,16,,"API TESTING",,,no
+56,"GET /tools — Authentication Tələb Olunması",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,16,,"API TESTING",,,no
+57,"Response Time"" Testing",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,16,,"API TESTING",,,no
+58,"Status Code Validation",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,16,,"API TESTING",,,no
+59,"Empty Response Test (Heç Nəticə Olmaması)",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,16,,"API TESTING",,,no
+60,"Rate Limiting",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,16,,"API TESTING",,,no
+67,"Düzgün username ve login ile daxilolma",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,17,,"Test cases",,,no
+68,"Username üçün böyük-kiçik hərf fərqlərinin yoxlanması",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,17,,"Test cases",,,no
+69,"JSON formatının düzgünlüyü",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,17,,"Test cases",,,no
+70,"Yanlış username ilə daxil olma",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,17,,"Test cases",,,no
+71,"Yanlış password daxil edilməsi",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,17,,"Test cases",,,no
+72,"Boş username və ya password daxil olmaq",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,17,,"Test cases",,,no
+73,"Boş body ilə sorğu göndərilməsi",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,17,,"Test cases",,,no
+74,"Uğursuz cəhdlərdən sonra sistemin bloklanması",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,17,,"Test cases",,,no

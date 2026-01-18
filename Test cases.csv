@@ -1,0 +1,363 @@
+id,title,description,preconditions,postconditions,tags,priority,severity,type,behavior,automation,status,is_flaky,layer,steps_type,steps_actions,steps_result,steps_data,milestone_id,milestone,suite_id,suite_parent_id,suite,suite_without_cases,parameters,is_muted
+,,,,,,,,,,,,,,,,,,,,13,,"ADY - Balance Top-up test cases",1
+,,,,,,,,,,,,,,,,,,,,15,13,"Birbank application - test cases",1
+,,,,,,,,,,,,,,,,,,,,7,,"ALAS – Contact Form Test Suite",1
+,,,,,,,,,,,,,,,,,,,,10,,"Xəritə funksionallığı testləri",1
+,,,,,,,,,,,,,,,,,,,,11,,"Header menyusunun testləri",1
+,,,,,,,,,,,,,,,,,,,,12,,"Footer menyusunun test edilməsi",1
+,,,,,,,,,,,,,,,,,,,,16,,"API TESTING",1
+,,,,,,,,,,,,,,,,,,,,17,,"Test cases",1
+18,"Kartla balans uğurla artırılır","Kart məlumatları daxil edərək balansı uğurla artırma","Balansi artirma bölməsi",,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,"1. ""Balansınızı artırın"" düyməsinə klik et
+2. ""Məbləği daxil edin"" seçimi edilir
+3. Ödəniş üsulu ""AZERİCARD"" seçilir
+4. ""Təsdiq edin"" düyməsi kliklənir
+5. Kart məlumatları daxil edilir
+6. Expired date
+7. CVV kod yazılır
+8. ""Ödə"" düyməsi kliklənir
+","1. Ödəniş üçün forma açılır
+2. Xanada Məbləğ görünür
+3. Uğurla seçilir
+4. Azəricard ödəniş platforması açılır
+5. Kart rəqəmləri görünür
+6. Bitmə tarixi görünür
+7. Rəqəmlər maskalanmış görünür
+8. Ödəniş uğurla keçir
+","1. 
+2. 3 AZN
+3. 
+4. 
+5. 5243\*\*\*\*
+6. 06/26
+7. \*\*\*
+8. 
+",,,13,,"ADY - Balance Top-up test cases",,,no
+19,"Məbləğ sahəsi boş olduqda və şablon məbləğlərdən heç biri seçilmədikdə ödənişin baş verməməsi","İstifadəçi balans artırmaq üçün""Məbləğ"" xanasını boş buraxmaq və şablon məbləğlərdən heç birini seçmədən davam etmək","* İstifadəçi ADY mobil tətbiqinə daxil olub.
+* ""Balans artırma"" səhifəsindədir.",,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,"1. ""Balansınızı artırın"" düyməsinə klik edilir
+2. Məbləğ sahəsini boş saxla
+3. 1, 3, 5, 10 AZN sablon düymələrdən heç birini seçmə
+4. Ödəniş üsulu seç
+5. ""Təsdiq edin"" düyməsinə klik et
+","1. Balansınızı artıqın bölməsi açılır
+2. Məbləğ sahəsində heç bir dəyər yoxdur
+3. Sürətli seçim edilməmiş qalır
+4. Seçim deaktiv olur
+5. Button deaktiv qalir
+","1. 
+2. 
+3. 
+4. Azericard
+5. 
+",,,13,,"ADY - Balance Top-up test cases",,,no
+20,"Məbləğ xanasına 0 AZN daxil edilməsii","0 AZN daxil edilərək test edilir",,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,"1. Balansınızı artırın düyməsinə klik edilir
+2. Məbləğ sahəsinə “0” yaz
+3. ""Ödəniş üsulu"" seçilir
+4. ""Təsdiq edin"" düyməsinə klik edilir
+","1. ""Balansınızı artırın"" bölməsi açılır
+2. Heç bir bildiriş qeyd olunmur
+3. Düymə aktiv olur, seçim edilir
+4. Düymə deaktiv qalır, sistem reaksiya vermir
+","1. 
+2. 
+3. Azəricard
+4. 
+",,,13,,"ADY - Balance Top-up test cases",,,no
+21,"Yüksək məbləğin daxil edilərək yoxlanılması","Məbləğ sahəsinə “@#$”""""""""yazaraq sistemin yoxlaması sınaqdan keçiRİLİR",,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,"1. Balansınızı artırın düyməsinə klik edilir
+2. Məbləğ sahəsinə 1000 000 AZN daxil et
+3. ""Ödəniş üsulu"" seçilir
+4. ""Təsdiq edin"" düyməsinə klik edilir
+","1. ""Balansınızı artırın"" bölməsi açılır
+2. Heç bir bildiriş qeyd olunmur
+3. Düymə aktiv olur, seçim edilir
+4. Düymə deaktiv qalır, sistem reaksiya vermir
+","1. 
+2. 1000 000
+3. Azəricard
+4. 
+",,,13,,"ADY - Balance Top-up test cases",,,no
+22,"Məbləğ sahəsinə hərf və ya simvol daxil edilərək yoxlanılması","Məbləğ sahəsinə “@#$”""""""""yazaraq sistemin yoxlaması sınaqdan keçiRİLİR",,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,"1. Balansınızı artırın düyməsinə klik edilir
+2. | Məbləğ sahəsinə simvollar qeyd olunur |
+| ------------------------------------- |
+|
+3. ""Ödəniş üsulu"" seçilir
+4. ""Təsdiq edin"" düyməsinə klik edilir
+","1. ""Balansınızı artırın"" bölməsi açılır
+2. Heç bir bildiriş qeyd olunmur
+3. Düymə aktiv olur, seçim edilir
+4. Düymə deaktiv qalır, sistem reaksiya vermir
+","1. 
+2. @#$""""""""
+3. Azəricard
+4. 
+",,,13,,"ADY - Balance Top-up test cases",,,no
+23,"Boş kart nömrəsi ilə ödənişə cəhd edilməsi","Kart nömrəsi daxil edilmədən balans artırmaq cəhdi edilir.","İstifadəçi balans artırma səhifəsinə daxil olmuş və məbləğ sahəsinə etibarlı məbləğ daxil etmişdir, hazırda ""Kart məlumatları"" bölməsindədir",,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,"1. Kart nömrəsi sahəsini boş burax
+2. ""Expired date"" xanasına bitmə tarixini daxil et
+3. ""CVV"" məlumatını daxil et
+4. “Ödə” düyməsinə klik et
+","1. 
+2. Tarix əks olunur
+3. Məlumat maskalanmış olaraq görünür
+4. ""Bu xananı doldurun"" xəbərdarlıq mesaı qeyd olunur
+","1. 
+2. 06/25
+3. \*\*\*
+4. 
+",,,13,,"ADY - Balance Top-up test cases",,,no
+24,"Fake kart rəqəmləri ilə ödəniş edilməsi","Card number xanasına fake kart nömrəsi daxil edir.","İstifadəçi balans artırma səhifəsinə daxil olmuş və məbləğ sahəsinə etibarlı məbləğ daxil etmişdir, hazırda ""Kart məlumatları"" bölməsindədir",,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,"1. Kart nömrəsi xanasına səhv rəqəmlər daxil edilir
+2. ""Expired date"" xanasına bitmə tarixini daxil et
+3. ""CVV"" məlumatını daxil et
+4. “Ödə” düyməsinə klik et
+","1. ""Əməliyyat uğursuzdur"" bildirişi qeyd olunur
+2. Tarix əks olunur
+3. Məlumat maskalanmış olaraq görünür
+4. ""Əməliyyat uğursuzdur"" bildirişi qeyd olunur
+","1. 4567891235478956
+2. 06/25
+3. \*\*\*
+4. 
+",,,13,,"ADY - Balance Top-up test cases",,,no
+26,"Kart nömrəsi sahəsinə hərf daxil edilməsi","Kart nömrəsi sahəsinə hərf daxil etməyə cəhd etdikdə heç bir simvol daxil edilmir və yalnız rəqəmlərə icazə verilir.","İstifadəçi balans artırma səhifəsinə daxil olmuş və məbləğ sahəsinə etibarlı məbləğ daxil etmişdir, hazırda ""Kart məlumatları"" bölməsindədir",,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,"1. Kart nömrəsi sahəsinə hərf daxil edilməsi
+2. ""Expired date"" xanasına bitmə tarixini daxil et
+3. ""CVV"" məlumatını daxil et
+4. “Ödə” düyməsinə klik et
+","1. Sahəyə heç bir hərf daxil edilməsi mümkün olmur
+2. Tarix əks olunur
+3. Məlumat maskalanmış olaraq görünür
+4. Hərf daxil edilməsi mümkün olmur, səhifə no reaction
+","1. 
+2. 06/25
+3. \*\*\*
+4. 
+",,,13,,"ADY - Balance Top-up test cases",,,no
+25,"CVV sahəsinin boş buraxılması","CVV sahəsini boş saxlayaraq balans artırmağa cəhd edİlməsi","İstifadəçi balans artırma səhifəsinə daxil olmuş və məbləğ sahəsinə etibarlı məbləğ daxil etmişdir, hazırda ""Kart məlumatları"" bölməsindədir",,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,"1. Kart rəqəmlərinin daxil edilməsi
+2. ""Expired date"" xanasına bitmə tarixini daxil et
+3. ""CVV"" məlumatının boş saxlanılması
+4. “Ödə” düyməsinə klik et
+","1. Rəqəmlər olduğu kimi əks olunur
+2. Tarix əks olunur
+3. ""Bu xananı doldurun"" qeyd olunur
+4. ""Bu (CVV) xananı doldurun"" qeyd olunur
+","1. 4565156515166515
+2. 06/25
+3. 
+4. 
+",,,13,,"ADY - Balance Top-up test cases",,,no
+27,"CVV sahəsinə 2 rəqəm daxil edilməsi","CVV sahəsinə 2 rəqəm daxil edilir","İstifadəçi balans artırma səhifəsinə daxil olmuş və məbləğ sahəsinə etibarlı məbləğ daxil etmişdir, hazırda ""Kart məlumatları"" bölməsindədir",,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,"1. Kart rəqəmlərinin daxil edilməsi
+2. ""Expired date"" xanasına bitmə tarixini daxil et
+3. | CVV sahəsinə 2 rəqəm daxil et |
+| ----------------------------- |
+|
+4. “Ödə” düyməsinə klik et
+","1. Rəqəmlər olduğu kimi əks olunur
+2. Tarix əks olunur
+3. ""Ən azı 3rəqəm daxil edin"" qeyd olunur
+4. ""Ən azı 3rəqəm daxil edin"" qeyd olunur
+","1. 4565156515166515
+2. 09/25
+3. 12
+4. 
+",,,13,,"ADY - Balance Top-up test cases",,,no
+28,"""Expired date"" xanasında tarix formatının yanlış daxil edilməsi","İstifadəçi tarix sahəsinə səhv formatda məlumat daxil edir.","Digər sahələr doğru doldurulub.",,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,"1. Kart rəqəmlərinin daxil edilməsi
+2. ""Expired date"" xanası səhv bitmə tarixi qeyd et
+3. CVV daxil edilir
+4. “Ödə” düyməsinə klik et
+","1. Rəqəmlər olduğu kimi əks olunur
+2. ""Bu xananı doldurun"" bildirişi əks olunur
+3. ""Ən azı 3 rəqəm daxil edin"" qeyd olunur
+4. ""Əməliyyat uğursuzdur"" bildiri əks olunur
+","1. 4565156515166515
+2. 02/25
+3. 123
+4. 
+",,,13,,"ADY - Balance Top-up test cases",,,no
+29,"Kart məlumatları bölməsində bütün xanalr boş olduqda “Təsdiqlə” düyməsinin aktiv olub-olmaması","İstifadəçi balans artırma səhifəsində heç bir məlumat daxil etmədən “Təsdiqlə” düyməsinin aktiv olub-olmadığının yoxlanması","İstifadəçi balans artırma səhifəsinə daxil olmuş və məbləğ sahəsinə etibarlı məbləğ daxil etmişdir, hazırda ""Kart məlumatları"" bölməsindədir",,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,"1. Kart rəqəmləri boş buraxılır
+2. ""Expired date"" xanası boş buraxılır
+3. CVV xanası boş buraxılır
+","1. ""Bu xananı doldurun"" bildirişi əks olunur
+2. ""Bu xananı doldurun"" bildirişi əks olunur
+3. ""Ən""Bu xananı doldurun"" bildirişi əks olunur
+","1. 
+2. 
+3. 123
+",,,13,,"ADY - Balance Top-up test cases",,,no
+30,"İnternet bağlantısı olmadıqda ""Balans artımı"" düyməsinin active/deactive olması","Balans artırma üçün bütün məlumatları düzgün daxil etdikdən sonra internet bağlantısı kəsilir və “Təsdiqlə” düyməsinə klik edilir","Digər sahələr doğru doldurulub.",,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,"1. Kart rəqəmlərinin daxil edilməsi
+2. ""Expired date"" xanası səhv bitmə tarixi qeyd et
+3. CVV daxil edilir
+4. “Ödə” düyməsinə klik et
+","1. Rəqəmlər olduğu kimi əks olunur
+2. ""Bu xananı doldurun"" bildirişi əks olunur
+3. Rəqəmlər maskalanmış əks olunur
+4. ""İnternet əlaqəsi yoxdur""qeyd olunur
+","1. 4565156515166515
+2. 02/25
+3. 123
+4. 
+",,,13,,"ADY - Balance Top-up test cases",,,no
+32,"Sessiya vaxtı bitdikdən sonra ödənişi təsdiqləməyə cəhd edilməsi","İstifadəçi balans artırma səhifəsində uzun müddət hərəkətsiz qalır,sessiya timeout baş verir","İstifadəçi balans artırma səhifəsinə daxil olmuş və məbləğ sahəsinə etibarlı məbləğ daxil etmişdir, hazırda ""Kart məlumatları"" bölməsindədir",,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,"1. Kart rəqəmləri daxil edilir
+2. ""Expired date"" xanasına bitmə tarixini daxil et
+3. ""CVV"" məlumatını daxil et
+4. “Ödə” düyməsinə klik et
+","1. Məlumatlar əks olunur
+2. Tarix əks olunur
+3. Məlumat maskalanmış olaraq görünür
+4. Ekranda loading yüklənir və ""Ödəniş uğursuz oldu"" bildirişi əks olunur
+","1. 
+2. 06/25
+3. \*\*\*
+4. 
+",,,13,,"ADY - Balance Top-up test cases",,,no
+61,"Kredit ödənişi məbləğinin yazılması",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,13,,"ADY - Balance Top-up test cases",,,no
+62,"Kredit ödənişi zamanı kart məlumatlarının düzgün yazılması",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,13,,"ADY - Balance Top-up test cases",,,no
+63,"Tam məbləğin ödənişin edilməsi",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,13,,"ADY - Balance Top-up test cases",,,no
+64,"Düzgün kart məlumatlarının düzgün daxil edilməsi",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,13,,"ADY - Balance Top-up test cases",,,no
+65,"Yalnış kart məlumatları ilə ödəniş",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,13,,"ADY - Balance Top-up test cases",,,no
+66,"Düzgün username ve parol ilə daxilolma",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,13,,"ADY - Balance Top-up test cases",,,no
+33,"Birbasnk səhifəsinin uğurla yüklənməsi",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,15,13,"Birbank application - test cases",,,no
+34,"Birbank logosuna kliklədikdə  profilin uğurla açılması",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,15,13,"Birbank application - test cases",,,no
+35,"Headerda story-lərin  düzgün əks olunması",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,15,13,"Birbank application - test cases",,,no
+36,"Balans məlumatlarının gizlədilməsi üçün hide olunması",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,15,13,"Birbank application - test cases",,,no
+37,"Balans məlumatlarının aşkar görünməsi  üçün unhide funksiyasının aktiv olması",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,15,13,"Birbank application - test cases",,,no
+38,"Axtarış düyməsinin aktiv olması",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,15,13,"Birbank application - test cases",,,no
+39,"Message bölməsinin aktivliyi",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,15,13,"Birbank application - test cases",,,no
+40,"ƏDV bölməsinə klik etmək olur",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,15,13,"Birbank application - test cases",,,no
+41,"Cashback bölməsi aktivdirmi",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,15,13,"Birbank application - test cases",,,no
+42,"Umico bölməsi aktivdirmi",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,15,13,"Birbank application - test cases",,,no
+43,"Proqramın update olunması üçün düymənin aktiv olub-olmaması",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,15,13,"Birbank application - test cases",,,no
+44,"Kartlar və hesablar bölməsində kart və hesab siyahısnın əks olunması",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,15,13,"Birbank application - test cases",,,no
+45,"Yeni hesabın uğurla əlavə olunması buttonunun aktiv olması",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,15,13,"Birbank application - test cases",,,no
+46,"Digər Məhsullar bölməsində  Bakıkart",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,15,13,"Birbank application - test cases",,,no
+47,"Kreditlər  bölməsində kreditlərin əks olunması",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,15,13,"Birbank application - test cases",,,no
+48,"Mobil nömrə bölməsində nömrənin əks olunması",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,15,13,"Birbank application - test cases",,,no
+49,"""Bank məhsulları"" bölməsində siyahının əks olunması",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,15,13,"Birbank application - test cases",,,no
+50,"""Bank məhsulları sifarişi"" bölməsinin ""Kartlar"" alt bölməsinin aktiv olması",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,15,13,"Birbank application - test cases",,,no
+7,"Bütün sahələr düzgün doldurulduqda formun uğurla göndərilməsi","Bütün sahələr düzgün məlumatlar daxil edilərək formun uğurla göndərilməsi",[https://alas.edu.az/](https://alas.edu.az/),,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,"1. Ad xanasına düzgün ad daxil edilir
+2. Ad xanasına düzgün soyad daxil edilir
+3. E-mail xanasina düzgün email daxil edilir
+4. Mövzu xanasına məlumat daxil edilir
+5. Mesaj xanasına `məlumat` yazılır
+6. ""Göndər"" düyməsinə kliklənir
+","1. Form uğurla göndərilir
+2. Form uğurla göndərilir
+3. Email qəbul edilir
+4. Qəbul edilir
+5. Mətn qəbul edilir
+6. Thank you for your message. We will get in touch with you shortly
+","1. Javahir
+2. Guliyeva
+3. javahir@mail.com
+4. `Sorğu`
+5. `Salam, kurs haqqinda məlumat almaq istəyirəm`
+6. 
+",,,7,,"ALAS – Contact Form Test Suite",,,no
+10,"E-mail sahəsi boş olduqda form göndərilməsi","“Bizimlə Əlaqə” formasında Email sahəsi boş buraxıldıqda formun göndərilməsinin qarşısının alınması və istifadəçiyə uyğun xəbərdarlıq mesajının göstərilməsi yoxlanılır.",[https://alas.edu.az/](https://alas.edu.az/),,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,"1. Ad xanasına düzgün ad daxil edilir
+2. Ad xanasına düzgün soyad daxil edilir
+3. E-mail xanası boş buraxılır
+4. Mövzu xanasına məlumat daxil edilir
+5. Mesaj xanasına `məlumat` yazılır
+6. ""Göndər"" düyməsinə kliklənir
+","1. Form uğurla göndərilir
+2. Form uğurla göndərilir
+3. Email qəbul edilir
+4. Qəbul edilir
+5. Mətn qəbul edilir
+6. This field must contain a valid email
+","1. Javahir
+2. Guliyeva
+3. 
+4. `Sorğu`
+5. `Salam, kurs haqqinda məlumat almaq istəyirəm`
+6. 
+",,,7,,"ALAS – Contact Form Test Suite",,,no
+11,"Subject sahəsində yalnız rəqəm olduqda validasiya yoxlanılır","“Bizimlə Əlaqə” formasında Mövzu (Subject) sahəsinə yalnız rəqəm daxil edildikdə formun göndərilməsinə icazə verilib-verilmədiyi və sistemin düzgün xəbərdarlıq mesajı göstərib-göstərmədiyi yoxlanılır.",[https://alas.edu.az/](https://alas.edu.az/),,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,"1. Ad xanasına düzgün ad daxil olunur
+2. Soyad xanasına düzgün soyad daxil edilir
+3. E-mail xanasna düzgün email daxil edilir
+4. Mövzu (Subject) xanasına yalnız rəqəmlər daxil edilir
+5. Mesaj xanasına `məlumat` yazılır
+6. ""Göndər"" düyməsinə kliklənir
+","1. Xəbərdarlıq: “Ad daxil edin”
+2. Qəbul edilir
+3. Email qəbul edilir
+4. BUG aşkarlandı. Thank you for your message. We will get in touch with you shortly
+5. Mətn qəbul edilir
+6. Thank you for your message. We will get in touch with you shortly
+","1. Javahir
+2. Guliyeva
+3. javahirguliyeva1@gmail.com
+4. `481968515615`
+5. `Salam, kurs haqqinda məlumat almaq istəyirəm`
+6. 
+",,,7,,"ALAS – Contact Form Test Suite",,,no
+12,"E-mail sahəsi boş olduqda form göndərilməsi","“Bizimlə Əlaqə” formasında Email sahəsi boş buraxıldıqda formun göndərilməsinin qarşısının alınması və istifadəçiyə uyğun xəbərdarlıq mesajının göstərilməsi yoxlanılır.",[https://alas.edu.az/](https://alas.edu.az/),,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,"1. Ad xanası boş burqaxılır
+2. Ad xanası boşburaxılır
+3. E-mail xanası boş buraxılır
+4. Mövzu xanası boş burqaxılır
+5. Mesaj xanası boş buraxılır
+6. ""Göndər"" düyməsinə kliklənir
+","1. Heç bir xəta yazmır
+2. Heç bir xəta yazmır
+3. This field is required
+4. Heç bir xəta yazmır
+5. Mətn qəbul edilir
+6. This field is required
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+",,,7,,"ALAS – Contact Form Test Suite",,,no
+13,"Xəritəyə klik edildikdə interaktivlik yoxlanılır","“Bizimlə Əlaqə” bölməsində yerləşən xəritə üzərinə klik edildikdə xəritənin interaktivliyinin işlədiyi (məsələn, zoom və ya yön dəyişməsi) yoxlanılır.",[https://alas.edu.az/](https://alas.edu.az/),,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,"1. “Bizimlə Əlaqə” səhifəsinə keçid edilir
+2. Xəritə komponenti ekranda görünür
+3. İstifadəçi xəritənin istənilən nöqtəsinə klik edir
+4. Klikdən sonra xəritə böyüdülür və ya fokus dəyişir (əgər aktivdirsə)
+","1. Xəritə səhifədə düzgün şəkildə görünür
+2. Xəritə komponenti yüklənir və xəritənin içindəki elementlər aydın şəkildə görünür
+3. Xəritə üzərinə klik edildikdə interaktiv cavab verir (böyüdülür, fokus dəyişir və ya hərəkət etdirilə bilir
+4. Sayt donmur, xəta mesajı göstərilmir, xəritə funksionallığı yerindədir
+","1. [https://alas.edu.az/bizimle-elaqe/](https://alas.edu.az/bizimle-elaqe/)
+2. 
+3. 
+4. 
+",,,10,,"Xəritə funksionallığı testləri",,,no
+14,"Header menyusundakı linklərə klik funksionallığının yoxlanması","Saytın yuxarı hissəsində yerləşən Header menyusundakı naviqasiya linklərinə klik edildikdə istifadəçinin müvafiq səhifəyə yönləndirilib-yönləndirilmədiyi yoxlanılır.",[https://alas.edu.az](https://alas.edu.az),,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,"1. Saytın ana səhifəsini açıLIR
+2. EKRAN AŞAĞI SKROL EDİLİR
+3. Header menyusunda HAQQIMIZDA üzərinə klik edilir
+","1. UĞURLA AÇILIR
+2. UĞURLU
+3. İstifadəçi klik etdiyi linkə uyğun olan səhifəyə yönləndirilir və səhifə düzgün şəkildə açılır.
+","1. [https://alas.edu.az/](https://alas.edu.az/)
+2. 
+3. 
+",,,11,,"Header menyusunun testləri",,,no
+17,"NEGATİVE - Header menyusunun sabit qalmaması","Saytın Header menyusu səhifə aşağı skroll edildikdə yuxarıda sabit qalmamalıdır, əks halda istifadəçi naviqasiyada çətinlik çəkə bilər. Bu testdə menyunun səhifənin yuxarı hissəsində qalması yoxlanılır.[https://alas.edu.az/](https://alas.edu.az/)",[https://alas.edu.az/](https://alas.edu.az/),,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,"1. Səhifəniaşağı skrol et
+","1. Header menyusu aşağı skroll edildikdə səhifənin yuxarı hissəsində **sabit qalmalıdır** (sticky olmalıdır). Əgər menyu səhifə ilə birlikdə aşağı düşürsə, bu, problem (bug) hesab edilir.
+","1. 
+",,,11,,"Header menyusunun testləri",,,no
+16,"Footer bölməsindəki linklərə klik edildikdə düzgün yönləndirilmə","Saytın Footer hissəsində yerləşən bütün linklərə klik edildikdə istifadəçinin müvafiq səhifəyə yönləndirilməsi və səhifənin düzgün açılması yoxlanılır.",[https://alas.edu.az/haqqimizda/](https://alas.edu.az/haqqimizda/),,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,"1. Footer hissəsindəki “Əlaqə” linkinə klik edilir
+2. Səhifənin sonuna qədər **aşağıya skroll edilir**
+3. Footer hissəsində yerləşən “Əlaqə” bölməsinə klik et.
+","1. İstifadəçi klik etdiyi linkə uyğun səhifəyə yönləndirilir və səhifə tam və düzgün yüklənir, heç bir səhv mesajı göstərilmir.
+2. 
+3. Əlqə səhifəsi açılır
+","1. [https://alas.edu.az/haqqimizda/](https://alas.edu.az/haqqimizda/) Klik ediləcək link: “Əlaqə”
+2. 
+3. 
+",,,12,,"Footer menyusunun test edilməsi",,,no
+51,"API Status URL  Check",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,16,,"API TESTING",,,no
+52,"GET /tools — Get Default List of Available Tools","Bütün siyahının yoxlanması",,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,16,,"API TESTING",,,no
+53,"GET /tools + Query Params (İD, CATEGORY,NAME,STOCK)","Filtr parametrləri ilə cavabların yoxlanması",,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,16,,"API TESTING",,,no
+54,"GET /tools/:toolId — Get a single order","Tək İD ilə axtarış",,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,16,,"API TESTING",,,no
+55,"GET /tools/:toolId?user-manual=true - Get Tool Info UM PDF",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,16,,"API TESTING",,,no
+56,"GET /tools — Authentication Tələb Olunması",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,16,,"API TESTING",,,no
+57,"Response Time"" Testing",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,16,,"API TESTING",,,no
+58,"Status Code Validation",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,16,,"API TESTING",,,no
+59,"Empty Response Test (Heç Nəticə Olmaması)",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,16,,"API TESTING",,,no
+60,"Rate Limiting",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,16,,"API TESTING",,,no
+67,"Düzgün username ve login ile daxilolma",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,17,,"Test cases",,,no
+68,"Username üçün böyük-kiçik hərf fərqlərinin yoxlanması",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,17,,"Test cases",,,no
+69,"JSON formatının düzgünlüyü",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,17,,"Test cases",,,no
+70,"Yanlış username ilə daxil olma",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,17,,"Test cases",,,no
+71,"Yanlış password daxil edilməsi",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,17,,"Test cases",,,no
+72,"Boş username və ya password daxil olmaq",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,17,,"Test cases",,,no
+73,"Boş body ilə sorğu göndərilməsi",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,17,,"Test cases",,,no
+74,"Uğursuz cəhdlərdən sonra sistemin bloklanması",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,17,,"Test cases",,,no
